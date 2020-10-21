@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  background-color: #090947;
+  background-repeat: no-repeat; 
+}
+#content{
+  margin-left: 5%;
+  position: absolute;
+  width: 90%;
+  
+}
+a.button2{
+  font-size: 30px;
+  text-decoration: none;
+  color: #eeeeee;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*----------------------- SIDE NAV FOR CSSDEMO.PHP --------------------------*/
+.sidenav {
+  margin-top: 2%;
+  float:left;
+  width:15%;
+  text-align:left;
+}
+
+.sidenav a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+  text-decoration: none;
+}
+.sidenav .current{
+  background-color: #ff01aa;
+}
+.sidenav li{
+ list-style-type:disc;
+ text-align: center;
+}
+.main {
+  margin-top: 2%;
+  float:left;
+  width:65%;
+  padding:10px 80px;
+}
+.aboutexp {
+  background-color:#e5e5e5;
+  float: right;;
+  width:20%;
+  padding:12px;
+  margin-top:2%;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .sidenav, .main, .aboutexp {
+    width:100%;
+  }
+}
+/*----------------------- END --------------------------*/
+/* ----------------------- LINK -------------------------- */
+
+a.button2:before, a.button2:after{
+  opacity: 0;
+  transition: all 0.3s ease;	
+	font-size: 40px;
+}
+a.button2:before{
+  content: '[';
+}
+a.button2:after{
+  content: ']';
+}
+
+a.button2:hover:before{
+  margin-right: 10px;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+  opacity: 1;
+}
+a.button2:hover:after{
+  margin-left: 10px;
+  content: ']';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+  opacity: 1;
+}
+
