@@ -67,7 +67,7 @@ $module = (isset($_GET['mod']) && $_GET['mod'] != '') ? $_GET['mod'] : '';
     </div> 
     <div class="row">
      <div class="column">
-     <img src="floom_tombstone.svg" x="700" y="500" height="120" width="120" style="margin-left: 25%;"/>
+     <img src="floom_tombStone.svg" x="700" y="500" height="120" width="120" style="margin-left: 25%;"/>
      <img id="skull" src="floom_skull.svg" height="65" width="65" style="transform: translate(-70px, -10px);"/>
      </div>
      <div class="column">
