@@ -41,6 +41,7 @@ main{
     float: left;
     width: 20%;
     padding: 10px;
+    padding-bottom: 50px;
     height: 150px;
     z-index: 1;
 }
